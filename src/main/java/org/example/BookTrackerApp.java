@@ -8,7 +8,7 @@ public class BookTrackerApp
 {
     public static void main( String[] args )
     {
-        String mongoDbConnectionuri = "mongodb+srv://gayathritMongodb:kWds6P8FCuFk5fRl@cluster0.bfcevkq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+        String mongoDbConnectionuri = "";
         MongoDatabase libraryDb;
         MongoInitializer initializer = new MongoInitializer(mongoDbConnectionuri);
         libraryDb = initializer.getDatabase();
